@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 /* === Navbar === */
@@ -15,7 +16,7 @@ nav{
 .left_nav{
     display: flex;
     flex-direction: row;
-    width: 28%;
+    width: 27%;
     justify-content: flex-start;
     align-items: center;
     padding: 10px 0px;
@@ -45,7 +46,7 @@ nav{
 
 /* Nav Tabs */
 .nav_tabs{
-    width: 44%;
+    width: 46%;
     display: flex;
     flex-direction: row;
 }
@@ -73,7 +74,7 @@ svg{
 .right_nav{
     display: flex;
     flex-direction: row;
-    width: 28%;
+    width: 27%;
     justify-content: flex-end;
     align-items: center;
     padding: 10px 0px;
@@ -97,24 +98,82 @@ svg{
 section{
     display: flex;
     flex-direction: row;
+    background-color: #F1F2F7;
     border: 1px solid red;
 }
 
 /* Left Content */
 .left_content{
-    width: 28%;
+    width: 27%;
     border: 1px solid green;
+    padding: 15px;
+}
+
+.left_home_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left_home_heading{
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+.left_home_create{
+    flex-grow: 1;
+    text-align: right;
+}
+.left_home_create a{
+    color: #1A7AF5;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.left_account_box{
+    margin: 15px 0px;
+}
+.left_account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left_account .left_account_name{
+    display: flex;
+    align-items: center;
+}
+.left_account .left_account_name img{
+    border-radius: 100px;
+}
+.left_account .left_account_name a{
+    margin: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+.left_account .left_account_name a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.left_account .left_account_icon{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.left_account .left_account_icon i{
+    color: #63666D;
 }
 
 /* Main */
 main{
-    width: 44%;
+    width: 46%;
     border: 1px solid goldenrod;
+    padding: 15px;
 }
 
 
 /* Right Content */
 .right_content{
-    width: 28%;
+    width: 27%;
     border: 1px solid blue;
+    padding: 15px;
 }
