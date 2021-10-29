@@ -91,3 +91,30 @@ svg{
 .right_nav div img{
     border-radius: 100px;
 }
+/* === /Navbar === */
+
+/* === Main Content === */
+section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+/* Left Content */
+.left_content{
+    width: 28%;
+    border: 1px solid green;
+}
+
+/* Main */
+main{
+    width: 44%;
+    border: 1px solid goldenrod;
+}
+
+
+/* Right Content */
+.right_content{
+    width: 28%;
+    border: 1px solid blue;
+}
