@@ -284,6 +284,63 @@ main{
     margin-right: 7px;
 }
 
+.post_box{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px silver;
+    margin-top: 20px;
+    display: block;
+}
+
+.post_title_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.post_dp{
+    width: 35px;
+}
+.post_dp img{
+    border-radius: 50px;
+}
+.post_heading{
+    padding: 0px 15px;
+}
+.post_name a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.post_name a:hover{
+    text-decoration: underline;
+}
+.post_time{
+    display: flex;
+    align-items: center;
+}
+.post_time i{
+    color: gray;
+}
+.post_time span{
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 8px;
+}
+.post_setting{
+    color: grey;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post_text{
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
 /* Right Content */
 .right_content{
     width: 25%;
