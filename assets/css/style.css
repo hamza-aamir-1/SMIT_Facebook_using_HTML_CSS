@@ -162,6 +162,21 @@ section{
 .left_account .left_account_icon i{
     color: #63666D;
 }
+.left_account_box .left_account_requests{
+    padding: 10px 15px;
+}
+.left_account_requests i{
+    color: gray;
+}
+.left_account_requests a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+.left_account_requests a:hover{
+    color: gray;
+    text-decoration: underline;
+}
 
 /* Main */
 main{
